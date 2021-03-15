@@ -1,0 +1,105 @@
+:root {
+    --blanco: #ffffff;
+    --primario: #ffc107; 
+    --azul: #0097A7; 
+    --gris: #757575; 
+    --rosa:  rgb(223, 69, 223);
+    --violeta: rgb(170, 30, 189);
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /** Hack para box Model **/
+}
+
+body{
+    font-size: 16px; /* 1rem=10px */
+    font-family: 'Krub', sans-serif;
+    background: linear-gradient(to right,var(--violeta),var(--rosa));
+}
+
+/** Tipografia **/
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+
+.boton {
+    background-color: var(--violeta);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+}
+
+
+/*Formulario*/
+.formulario {
+    background-color: var(--blanco);
+    width: min(60rem, 100%); 
+    margin: 1rem auto; 
+    padding: 2rem;
+    border-radius: 2rem;
+    
+
+    
+}
+
+.formulario fieldset {
+    border: none;
+    margin-right: 3rem;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--violeta)
+}
+
+
+.campo {
+    margin-bottom: 1rem;
+    
+}
+
+.campo label {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea {
+    height: 100px;
+    background-color: #f7f7f7;
+}
+
+.campo input {
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: var(--violeta);
+    background-color: #f7f7f7;
+    
+}
+
+.input-text {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border-style: solid; 
+    border-color: #ab4493; 
+}
+
+

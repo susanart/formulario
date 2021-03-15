@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+        <form class="formulario" action="https://api.web3forms.com/submit" method="POST" >
+            <fieldset>
+                <legend>Llena todos los campos</legend>
+              <div class="contenedor-campos">
+                    <input type="hidden" name="apikey" value="c6c212f9-f0f1-4513-99a9-1bc6161f3c8a">
+                    <div class="campo">
+                        <label for="name">Nombre</label>
+                        <input name="name"  class="input-text" type="text" placeholder="Tu Nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="asunto">Asunto</label>
+                        <input name="subject" class="input-text" type="text" placeholder="Digita el asunto" >
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input name="email" class="input-text" type="email" placeholder="Digita tu email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" class="input-text" required > </textarea>
+                    </div>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+               </div>  <!-- Este es el contenedor de los campos -->
+                <div >
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                    <!-- <button type="submit"> Submit Form</button> -->
+                </div>
+
+            </fieldset>
+        </form>
+</body>
+</html>
