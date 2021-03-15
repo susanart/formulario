@@ -1,3 +1,4 @@
+/** Global **/
 :root {
     --blanco: #ffffff;
     --primario: #ffc107; 
@@ -5,6 +6,7 @@
     --gris: #757575; 
     --rosa:  rgb(223, 69, 223);
     --violeta: rgb(170, 30, 189);
+
 }
 
 html{
